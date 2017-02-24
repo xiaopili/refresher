@@ -1,0 +1,15 @@
+{
+  "name": "refresher",
+  "version": "1.0.0",
+  "description": "pull-down to refresh && pull-up to load",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/xiaopili/refresher.git",
+    "type": "git"
+  },
+  "author": "liangxiao <liangxiao@gomeplus.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}

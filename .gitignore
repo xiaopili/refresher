@@ -1,0 +1,13 @@
+# OSX
+.DS_Store
+
+# Android/IJ
+.idea
+.gradle
+local.properties
+.project
+
+# NodeJs
+node_modules/
+npm-debug.log
+yarn-error.log
