@@ -1,6 +1,8 @@
-`
-var ref = new refresher({
-	id:"wrapper",               //需要注册插件的元素（内部需直接包含ul li）
+### 基于iscroll的下拉刷新上拉加载
+
+```javascript
+  var ref = new refresher({
+    id:"wrapper",               //需要注册插件的元素（内部需直接包含ul li）
 	pullDownAction:Refresh,     //下拉刷新的回调(可不传，则不显示效果)                                                       
 	pullUpAction:Load,          //上拉加载的回调
 	topDistance:1.173333,       //顶部插入元素的高度和
@@ -26,5 +28,4 @@ function Load() {
 		ref.noMore('没有更多了...');
 	}, 800);	
 }
-
-`
+```
